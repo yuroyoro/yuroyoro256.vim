@@ -267,7 +267,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("StatusLine", "ffffff", "666666", "none")
     call <SID>X("StatusLineNC", "000000", "666666", "none")
     call <SID>X("Title", "cd5c5c", "", "")
-    call <SID>X("Visual", "6b8e23", "f0e68c", "reverse")
+    call <SID>X("Visual", "3399ff", "f0e68c", "reverse")
 
     "VisualNOS
     call <SID>X("WarningMsg", "fa8072", "", "")
