@@ -1,7 +1,7 @@
 yuroyoro256.vim
 ===========
 
-yuroyoro256 is a colorscheme for vim designed by mrkn.  It is avaiable on 88- and 256-color xterm, and on gvim.
+yuroyoro256 is a colorscheme for vim modified from mrkn256 that designed by mrkn.  It is avaiable on 88- and 256-color xterm, and on gvim.
 
 Description
 -----------
@@ -10,7 +10,7 @@ This is a colorscheme designed by mrkn based on "desert256" colorscheme created 
 
 A screen shot is available at <http://img.skitch.com/20100215-rxeg4nguregi8i21dyarspmsgc.png>
 
-The ancestor version "desert256" colorscheme is available at <http://www.vim.org/scripts/script.php?script_id=1243>
+The ancestor version "desert256" and mrkn356 colorscheme is available at <http://www.vim.org/scripts/script.php?script_id=1243>, <http://www.vim.org/scripts/script.php?script_id=2974>
 
 The real feature of this colorscheme, with a wink to the "inkpot" theme, is the programmatic approximation of the gui colors to the palettes of 88- and 256- color xterms.  The functions that do this (folded away, for readability) are calibrated to the colors used for Thomas E. Dickey's xterm (version 200), which is available at <http://dickey.his.com/xterm/xterm.html>.
 

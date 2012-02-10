@@ -288,12 +288,12 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("PreProc", "ffcc66", "", "")
     call <SID>X("Type", "66cc66", "", "bold")
     call <SID>X("Special", "ffdead", "", "")
-    call <SID>X("Number", "cc66ff", "", "")
+    call <SID>X("Number", "cc99ff", "", "")
     call <SID>X("String", "99cccc", "", "")
-    call <SID>X("Operator", "ff00ff", "", "")
+    call <SID>X("Operator", "ffccff", "", "")
     call <SID>X("Conditional", "ff6633", "", "bold")
     call <SID>X("Repeat", "66ff66", "", "bold")
-    call <SID>X("Function", "9999ff", "", "underline")
+    call <SID>X("Function", "99aaff", "", "none")
     call <SID>X("Delimiter", "99cccc", "", "bold")
     "Underlined
     call <SID>X("Ignore", "666666", "", "")
@@ -301,10 +301,10 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("Todo", "ff4500", "eeee00", "")
 
     " for Ruby {{{
-    call <SID>X("rubyDefine", "ffff00", "", "bold")
+    call <SID>X("rubyDefine", "ffcc66", "", "bold")
     call <SID>X("rubyClass", "3399ff", "", "bold")
     call <SID>X("rubyModule", "ff9966", "", "bold")
-    call <SID>X("rubyControl", "ff99ff", "", "none")
+    call <SID>X("rubyControl", "ff9966", "", "none")
     call <SID>X("rubyGlobalVariable", "ff3300", "", "")
     call <SID>X("rubyClassVariable", "ff3300", "", "")
     call <SID>X("rubyPredefinedVariable", "ff9999", "", "")
