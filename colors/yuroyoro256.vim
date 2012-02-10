@@ -289,7 +289,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("Type", "66cc66", "", "bold")
     call <SID>X("Special", "ffdead", "", "")
     call <SID>X("Number", "cc99ff", "", "")
-    call <SID>X("String", "99cccc", "", "")
+    call <SID>X("String", "ffaaaa", "", "")
     call <SID>X("Operator", "ffccff", "", "")
     call <SID>X("Conditional", "ff6633", "", "bold")
     call <SID>X("Repeat", "66ff66", "", "bold")
