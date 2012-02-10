@@ -254,15 +254,15 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     "DiffText
     "ErrorMsg
     call <SID>X("VertSplit", "666666", "000000", "none")
-    call <SID>X("Folded", "ffd700", "000000", "bold")
+    call <SID>X("Folded", "ffd700", "4d4d4d", "")
     call <SID>X("FoldColumn", "d2b48c", "4d4d4d", "")
+    call <SID>X("IncSearch", "708090", "f0e68c", "")
     call <SID>X("LineNr", "666666", "", "none")
     call <SID>X("ModeMsg", "daa520", "", "")
     call <SID>X("MoreMsg", "2e8b57", "", "")
     call <SID>X("NonText", "666699", "", "none")
     call <SID>X("Question", "00ff7f", "", "")
-    call <SID>X("IncSearch", "708090", "f0e68c", "")
-    call <SID>X("Search", "333333", "cccccc", "bold")
+    call <SID>X("Search", "f5deb3", "cd853f", "")
     call <SID>X("SpecialKey", "666699", "", "none")
     call <SID>X("StatusLine", "ffffff", "666666", "none")
     call <SID>X("StatusLineNC", "000000", "666666", "none")
@@ -281,7 +281,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     " call <SID>X("PmenuThumb", "", "", "")
 
     " syntax highlighting groups
-    call <SID>X("Comment", "00ff00", "", "")
+    call <SID>X("Comment", "87ceeb", "", "")
     call <SID>X("Constant", "ffcc66", "", "")
     call <SID>X("Identifier", "ccffff", "", "none")
     call <SID>X("Statement", "6699ff", "", "none")
